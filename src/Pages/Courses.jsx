@@ -54,7 +54,7 @@ export default function StudentCourses() {
         {courses.map(c => (
           <div key={c.id} className="border rounded-lg shadow p-4 flex flex-col">
             <img
-              src={c.thumbnail || "https://via.placeholder.com/300x160?text=Course"}
+              src={`https://res.cloudinary.com/dlev4b4pu/${c.thumbnail}`|| "https://via.placeholder.com/300x160?text=Course"}
               alt={c.title}
               className="rounded mb-3 h-40 object-cover w-full"
             />

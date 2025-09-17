@@ -34,7 +34,7 @@ const Login = () => {
 
       // role-based redirect
       if (data.user?.role === 'student') {
-        nav('/courses')
+        nav('/contact')
       } else if (data.user?.role === 'admin') {
         nav('/admin')
       } else {

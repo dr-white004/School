@@ -63,7 +63,7 @@ const Register = () => {
       }
 
       if (data.user?.role === 'student') {
-        navigate('/courses');
+        navigate('/contact');
       } else if (data.user?.role === 'admin') {
         navigate('/admin');
       } else {
